@@ -1,0 +1,1629 @@
+/*mobile*/
+
+     
+     
+.homeHeader {
+	
+	display:block;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	
+}
+
+.homeContainer {
+ 	width: 100%;
+	overflow: hidden;
+	margin-top:0;
+	position:relative;
+	
+	
+}
+
+
+.tagline {
+	font-size:0.9em;
+	font-family:"Raleway","Montserrat";
+	color:#909090;
+	text-align: center;
+
+}
+
+
+.work {
+	display:block;
+	position:relative;
+	width:95%;
+	margin:30px auto;
+}
+
+#everydayHome{
+
+
+background: url(images/homebanner_everyday_1.png);
+background-repeat: no-repeat;
+background-position: center;
+height:200px;
+z-index:1;
+}
+
+
+
+#learnHome{
+
+
+background: url(images/homebanner_learn_1.png);
+background-repeat: no-repeat;
+background-position: center;
+height:200px;
+z-index:1;
+}
+
+
+
+
+#studentHome{
+
+background: url(images/homebanner_student_1.png);
+background-repeat: no-repeat;
+background-position: center;
+height:200px;
+z-index:1;
+}
+
+
+
+
+#internHome{
+
+
+background: url(images/homebanner_intern_1.png);
+background-repeat: no-repeat;
+background-position: center;
+height:200px;
+z-index:1;
+}
+
+
+
+
+#meetupHome{
+
+background: url(images/homebanner_meetup_1.png);
+background-repeat: no-repeat;
+background-position: center;
+height:200px;
+z-index:1;
+}
+
+
+
+
+#flightHome{
+
+
+background: url(images/homebanner_flight_1.png);
+background-repeat: no-repeat;
+background-position: center;
+height:200px;
+z-index:1;
+}
+
+
+#graphicHome{
+
+
+background: url(images/homebanner_graphic_1.png);
+background-repeat: no-repeat;
+background-position: center;
+height:200px;
+z-index:1;
+}
+
+
+
+
+
+.headerContainer {
+
+	display:block;
+	position:fixed;
+	top:0px;
+	width:100%;
+	margin:0;
+	z-index:100000; 
+	background:#ffffff; 
+	height:45px; 
+	opacity:0.5;
+
+}
+
+.headerNav {
+	display:inline-block;
+	position:relative;
+	width: 70%;
+	margin:12px 15% 4px 15%;
+	vertical-align:baseline;
+	clear:both;
+}
+
+.mainNav {
+	list-style-type: none;
+}
+
+.mainNav li {
+	float:left;
+	display:inline-block;
+	width:33%;
+}
+
+.unselected a:link {
+	font-size:0.9em;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-weight: regular;
+	color:#D5CEC0;
+	text-decoration: none;
+	display:inline-block;
+	float:right;
+	text-align: center;
+	padding:0 38%;
+	margin:3px auto;
+}
+
+.unselected a:visited {
+	color:#A6A098;
+	font-weight: regular;
+}
+
+.unselected a:hover {
+	color:#29A3CC;
+	font-weight: regualr;
+}
+
+.selected p {
+	font-size:0.9em;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-weight: bold;
+	color:#29A3CC;
+	text-decoration: none;
+	display:inline-block;
+	float:right;
+	text-align: center;
+	padding:0 38%;
+	margin:3px auto;
+}
+
+
+#headerbg {
+	display:block;
+	width:100%;
+	margin: 0 auto;
+}
+
+
+
+.homeBgHeader {
+	position:absolute;
+	width: 100%;
+	margin: 0 auto;
+	top:30%;
+}
+
+
+
+.bigHeader {
+	display:block;
+	font-family:"Josefin Slab", Palatino;
+	font-size:2em;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+	color:#969696;
+	margin-bottom:1px;
+	
+}
+
+.personalTag {
+	display:block;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-weight: 300;
+	font-size:1em;
+	text-align: center;
+	color:#707070;
+	opacity:0.85;
+
+}
+
+
+
+#headerPersonal {
+	display:block;
+	width:55%;
+	margin: 20px auto;
+}
+
+.homeSeparator {
+	display:block;
+	width:100%;
+	margin:0 auto;
+	opacity: 0.8;
+}
+
+
+.homeProject {
+	display:block;
+	width:100%;
+	margin:0 auto;
+}
+
+.homeProIntro {
+	position:absolute;
+	top:15%;
+	left:12%;
+}
+
+.homeProIntroRight {
+	position:absolute;
+	top:15%;
+	right:12%;
+}
+
+.proTitle {
+	display:none;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-size:1em;
+	color:#616161;
+	width:65%;
+	line-height: 130%
+}
+
+.proTitleRight {
+	display:none;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-size:1em;
+	color:#616161;
+	width:65%;
+	float:right;
+	text-align:right;
+	line-height: 130%
+}
+
+.proIntro {
+	display:none;
+
+}
+
+.proIntroRight {
+	display:none;
+
+}
+
+
+    footer {
+      text-align: center;
+      clear:both;
+      margin:50px 15px;
+      font-size: 0.8em;
+    }
+    
+    .footerLogo {
+      display: block;
+      width:40px;
+      margin: 15px auto;
+    }
+    
+    .footerLogo img {
+
+      width:100%;
+      
+    }
+    
+.socialLinks {
+      width: 240px;
+      margin: 15px auto;
+    }
+    
+.socialIcon {
+      margin: 0 10px;
+     }
+     
+.socialLinks a:link{
+      opacity: 0.5;
+	
+}
+
+
+.socialLinks a:hover {
+	opacity: 0.8;
+
+}
+    
+    .motto {
+      margin-bottom:0px;
+      font-family: "Merriweather", "Georgia";
+      font-size:0.8em;
+      font-style: italic;
+      color: #707070;
+    }
+
+    .lastModify {
+      font-family: "Merriweather", "Georgia";
+      font-weight:300;
+      font-size:0.8em;
+      color:#9599A3;
+      margin-top:0px;
+      line-height:100%;
+    }
+
+    
+#colcontainer {
+    display:block;
+    position:relative;
+    width:90%;
+    margin: 10px auto;
+}
+
+.longTextContainer {
+    display:block;
+    position:relative;
+    width:88%;
+    margin: 20px auto;
+
+}
+
+
+.play {
+    display:block;
+    position:relative;
+    width:95%;
+    margin:20px auto;
+}
+
+.play img {
+    width:100%;
+}
+    
+.paraText {
+    font-size:0.9em;
+    font-family:"Merriweather", "Georgia";
+    font-weight:300;
+    line-height: 170%;
+    color:#616161;
+    text-align:left;
+    margin-bottom:20px;
+}
+
+#aboutPic {
+	display:block;
+	width:30%;
+	margin: 30px auto;
+}
+
+.paraText a:link {
+   color:#29A3CC;
+   text-decoration: none;
+}
+
+.paraText a:hover {
+   color:#29A3CC;
+   text-decoration: none;
+}
+
+.paraText a:visited {
+   color:#A6A098;
+   text-decoration: none;
+}
+
+.resumeButton {
+        display:block;
+        margin: 25px 0;
+
+}
+
+.resumeButton a:link{
+        font-family:"Montserrat", "Verdana", "Helvetica";
+	font-size:1em;
+	color:#3fb3d9;
+	text-decoration: none;
+	text-align: center;
+	padding:8px 16px;
+	margin:0 auto;
+	border: 2px solid #3fb3d9;
+	border-radius: 2px;
+	
+}
+
+.resumeButton a:visited {
+	color:#A6A098;
+
+}
+
+.resumeButton a:hover {
+	color:#6ac4e2;
+
+}
+
+
+/*tablet*/
+   @media only screen and (min-width: 768px) {
+
+
+.tagline {
+	font-size:0.9em;
+	font-family:"Raleway","Montserrat";
+	color:#909090;
+	text-align: center;
+
+}
+
+
+.work {
+	display:block;
+	width:80%;
+	margin:30px auto;
+}
+
+#everydayHome{
+
+background: url(images/homebanner_everyday_2.png);
+background-repeat: no-repeat;
+background-position: center;
+height:240px;
+z-index:1;
+}
+
+
+#everydayHome:hover{
+
+background: url(images/homebanner_everyday_2_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+#learnHome{
+
+background: url(images/homebanner_learn_2.png);
+background-repeat: no-repeat;
+background-position: center;
+height:240px;
+z-index:1;
+}
+
+/*
+#learnHome:hover{
+
+background: url(images/homebanner_learn_2_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+*/
+
+#studentHome{
+
+background: url(images/homebanner_student_2.png);
+background-repeat: no-repeat;
+background-position: center;
+height:240px;
+z-index:1;
+}
+
+/*
+#studentHome:hover{
+
+background: url(images/homebanner_student_2_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+*/
+
+#internHome{
+
+background: url(images/homebanner_intern_2.png);
+background-repeat: no-repeat;
+background-position: center;
+height:240px;
+z-index:1;
+}
+
+
+#internHome:hover{
+
+background: url(images/homebanner_intern_2_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+#meetupHome{
+
+background: url(images/homebanner_meetup_2.png);
+background-repeat: no-repeat;
+background-position: center;
+height:240px;
+z-index:1;
+}
+
+
+#meetupHome:hover{
+
+background: url(images/homebanner_meetup_2_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+#flightHome{
+
+background: url(images/homebanner_flight_2.png);
+background-repeat: no-repeat;
+background-position: center;
+height:240px;
+z-index:1;
+}
+
+
+#flightHome:hover{
+
+background: url(images/homebanner_flight_2_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+
+#graphicHome{
+
+background: url(images/homebanner_graphic_2.png);
+background-repeat: no-repeat;
+background-position: center;
+height:240px;
+z-index:1;
+}
+
+
+#graphicHome:hover{
+
+background: url(images/homebanner_graphic_2_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+.headerContainer {
+
+	display:block;
+	position:fixed;
+	top:0px;
+	width:100%;
+	margin:0;
+	z-index:100000; 
+	background:#ffffff; 
+	height:60px; 
+	opacity:0.5;
+
+}
+
+.headerNav {
+	display:inline-block;
+	position:relative;
+	width: 50%;
+	margin:20px 25% 6px 25%;
+	vertical-align:baseline;
+	clear:both;
+}
+
+.mainNav {
+	list-style-type: none;
+}
+
+.mainNav li {
+	float:left;
+	display:inline-block;
+	width:33%;
+}
+
+.unselected a:link {
+	font-size:1em;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	color:#D5CEC0;
+	text-decoration: none;
+	display:inline-block;
+	float:right;
+	text-align: center;
+	padding:0 38%;
+	margin:3px auto;
+}
+
+.unselected a:visited {
+	color:#A6A098;
+
+}
+
+.unselected a:hover {
+	color:#29A3CC;
+
+}
+
+.selected p {
+	font-size:1em;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-weight: bold;
+	color:#29A3CC;
+	text-decoration: none;
+	display:inline-block;
+	float:right;
+	text-align: center;
+	padding:0 38%;
+	margin:3px auto;
+}
+
+
+#headerbg {
+	display:block;
+	width:100%;
+	margin: 0 auto;
+}
+
+#balloon1 {
+	position:absolute;
+	display:block;
+	width:15%;
+	top:6%;
+	right:5%;
+	float:right;
+	animation-duration: 4s;
+        animation-name: fadeIn1;
+}
+
+#balloon2 {
+	position:absolute;
+	display:block;
+	width:13%;
+	top:4%;
+	right:14%;
+	float:right;
+	animation-duration: 4s;
+        animation-name: fadeIn2;
+}
+
+
+@keyframes fadeIn1 {
+  from {
+    opacity: 0;
+    top:2%;
+  }
+
+  to {
+    opacity: 1;
+    top:6%;
+  }
+}
+
+@keyframes fadeIn2 {
+  from {
+    opacity: 0;
+    top:1%;
+  }
+
+  to {
+    opacity: 1;
+    top:4%;
+  }
+}
+
+
+.homeBgHeader {
+	position:absolute;
+	width: 100%;
+	margin: 0 auto;
+	top:42%;
+	
+}
+
+.fadeInUp {
+  animation-duration: 1.5s;
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    bottom:100px;
+  }
+
+  to {
+    opacity: 1;
+    bottom:170px;
+  }
+}
+
+.bigHeader {
+	display:block;
+	font-family:"Josefin Slab", Palatino;
+	font-size:3em;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+	color:#969696;
+	margin-bottom:6px;
+	
+}
+
+.personalTag {
+	display:block;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-weight: 300;
+	font-size:1.2em;
+	text-align: center;
+	color:#707070;
+	opacity:0.85;
+}
+
+
+
+
+#headerPersonal {
+	display:block;
+	width:25%;
+	margin: 20px auto;
+}
+
+.homeSeparator {
+	display:block;
+	width:80%;
+	margin:0 auto;
+	opacity: 0.8;
+}
+
+
+.homeProject {
+	display:block;
+	width:86%;
+	margin:0 auto;
+}
+
+.homeProIntro {
+	position:absolute;
+	top:15%;
+	left:13%;
+}
+
+.homeProIntroRight {
+	position:absolute;
+	display:block;
+	top:15%;
+	right:13%;
+	float:right;
+
+}
+
+.proTitle {
+	display:block;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-size:1.1em;
+	color:#616161;
+	width:50%;
+	margin-bottom:10px;
+	
+}
+
+.proIntro {
+	display:block;
+	font-family: "Merriweather", "Georgia";
+        font-weight:300;
+	font-size:0.7em;
+	color:#8b8b8b;
+	width:50%;
+	
+	
+}
+
+.proTitleRight {
+	display:block;
+	clear:both;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-size:1.1em;
+	color:#616161;
+	float:right;
+	text-align:right;
+	width:50%;
+	margin-bottom:10px;
+}
+
+.proIntroRight {
+	display:block;
+	clear:both;
+	text-align:right;
+	font-family: "Merriweather", "Verdana", "Helvetica";
+      font-weight:300;
+	font-size:0.7em;
+	color:#8b8b8b;
+	width:50%;
+	float:right;
+}
+
+footer {
+      text-align: center;
+      clear:both;
+      margin:50px auto;
+      font-size: 0.8em;
+    }
+    
+    
+#colcontainer {
+    display:block;
+    position:relative;
+    width:85%;
+    margin: 10px auto;
+}
+
+.longTextContainer {
+    display:block;
+    position:relative;
+    width:65%;
+    margin: 30px auto 50px auto;
+
+}
+
+
+.play {
+    display:block;
+    position:relative;
+    width:100%;
+    margin:20px auto;
+}
+
+.play img {
+    width:100%;
+    margin:8px 0;
+}
+
+.paraText {
+    font-size:0.9em;
+    font-family:"Merriweather", "Georgia";
+    font-weight:300;
+    line-height: 180%;
+    color:#616161;
+    text-align:left;
+    margin-bottom:30px;
+}
+
+#aboutPic {
+	display:block;
+	width:17%;
+	margin: 30px auto;
+}
+.resumeButton {
+        display:block;
+        margin: 35px 0;
+
+}
+
+.resumeButton a:link{
+        font-family:"Montserrat", "Verdana", "Helvetica";
+	font-size:1em;
+	color:#3fb3d9;
+	text-decoration: none;
+	text-align: center;
+	padding:10px 20px;
+	margin:0 auto;
+	border: 2px solid #3fb3d9;
+	border-radius: 4px;
+	
+}
+
+.resumeButton a:visited {
+	color:#A6A098;
+
+}
+
+.resumeButton a:hover {
+	color:#6ac4e2;
+
+}
+
+}
+
+/*desktop*/
+  @media only screen and (min-width: 992px) {
+
+
+.work {
+	display:block;
+	position:relative;
+	width:75%;
+	margin:30px auto;
+}
+
+#everydayHome{
+
+background: url(images/homebanner_everyday_3.png);
+background-repeat: no-repeat;
+background-position: center;
+height:300px;
+z-index:1;
+}
+
+
+#everydayHome:hover{
+
+background: url(images/homebanner_everyday_3_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+#learnHome{
+
+background: url(images/homebanner_learn_3.png);
+background-repeat: no-repeat;
+background-position: center;
+height:300px;
+z-index:1;
+}
+
+/*
+#learnHome:hover{
+
+background: url(images/homebanner_learn_3_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+*/
+
+
+#studentHome{
+
+background: url(images/homebanner_student_3.png);
+background-repeat: no-repeat;
+background-position: center;
+height:300px;
+z-index:1;
+}
+
+/*
+#studentHome:hover{
+
+background: url(images/homebanner_student_3_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+*/
+
+#internHome{
+
+background: url(images/homebanner_intern_3.png);
+background-repeat: no-repeat;
+background-position: center;
+height:300px;
+z-index:1;
+}
+
+
+#internHome:hover{
+
+background: url(images/homebanner_intern_3_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+
+#meetupHome{
+
+background: url(images/homebanner_meetup_3.png);
+background-repeat: no-repeat;
+background-position: center;
+height:300px;
+z-index:1;
+}
+
+
+#meetupHome:hover{
+
+background: url(images/homebanner_meetup_3_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+#flightHome{
+
+background: url(images/homebanner_flight_3.png);
+background-repeat: no-repeat;
+background-position: center;
+height:300px;
+z-index:1;
+}
+
+
+#flightHome:hover{
+
+background: url(images/homebanner_flight_3_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+
+#graphicHome{
+
+background: url(images/homebanner_graphic_3.png);
+background-repeat: no-repeat;
+background-position: center;
+height:300px;
+z-index:1;
+}
+
+
+#graphicHome:hover{
+
+background: url(images/homebanner_graphic_3_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+.headerContainer {
+
+	display:block;
+	position:fixed;
+	top:0px;
+	width:100%;
+	margin:0;
+	z-index:100000; 
+	background:#ffffff; 
+	height:60px; 
+	opacity:0.5;
+
+}
+
+.headerNav {
+	display:inline-block;
+	position:relative;
+	width: 50%;
+	margin:20px 25% 6px 25%;
+	vertical-align:baseline;
+	clear:both;
+}
+
+.mainNav {
+	list-style-type: none;
+}
+
+.mainNav li {
+	float:left;
+	display:inline-block;
+	width:33%;
+}
+
+.unselected a:link {
+	font-size:1em;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	color:#D5CEC0;
+	text-decoration: none;
+	display:inline-block;
+	float:right;
+	text-align: center;
+	padding:0 38%;
+	margin:3px auto;
+}
+
+.unselected a:visited {
+	color:#A6A098;
+}
+
+.unselected a:hover {
+	color:#29A3CC;
+}
+
+.selected p {
+	font-size:1em;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-weight: bold;
+	color:#29A3CC;
+	text-decoration: none;
+	display:inline-block;
+	float:right;
+	text-align: center;
+	padding:0 38%;
+	margin:3px auto;
+}
+
+
+
+#headerPersonal {
+	display:block;
+	
+	width:18%;
+	margin: 20px auto;
+}
+
+#headerbg {
+	display:block;
+	position:relative;
+	width:100%;
+	margin: 0 auto;
+}
+
+#line1 {
+	position:absolute;
+	display:inline;
+	width:10%;
+	top:15%;
+	right:10%;
+	float:right;
+	animation-duration: 4s;
+        animation-name: flow1;
+}
+
+#line2 {
+	position:absolute;
+	display:inline;
+	width:10%;
+	top:10%;
+	right:90%;
+	float:right;
+	animation-duration: 4s;
+        animation-name: flow2;
+}
+
+
+
+@keyframes flow1 {
+  from {
+    right:90%;
+  }
+
+  to {
+    
+    right:10%;
+  }
+}
+
+@keyframes flow2 {
+  from {
+   
+    right:10%;
+  }
+
+  to {
+    right:90%;
+  }
+}
+
+
+.homeSeparator {
+	display:block;
+	width:75%;
+	margin:0 auto;
+	opacity: 0.7;
+}
+
+.resumeButton {
+        display:block;
+        margin: 40px 0;
+
+}
+
+.resumeButton a:link{
+        font-family:"Montserrat", "Verdana", "Helvetica";
+	font-size:1.1em;
+	font-weight: regualr;
+	color:#3fb3d9;
+	text-decoration: none;
+	text-align: center;
+	padding:10px 20px;
+	margin:0 auto;
+	border: 2px solid #3fb3d9;
+	border-radius: 4px;
+	
+}
+
+.resumeButton a:visited {
+	color:#A6A098;
+}
+
+.resumeButton a:hover {
+	color:#6ac4e2;
+}
+
+.homeProject {
+	display:block;
+	width:80%;
+	margin:0 auto;
+}
+
+.homeProIntro {
+	position:absolute;
+	top:17%;
+	left:14%;
+}
+
+.homeProIntroRight {
+	position:absolute;
+	display:block;
+	top:17%;
+	right:14%;
+	float:right;
+
+}
+
+.proTitle {
+	display:block;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	line-height:160%;
+	font-size:1.2em;
+	color:#616161;
+	width:50%;
+	margin-bottom:10px;
+	
+}
+
+.proIntro {
+	display:block;
+	font-family:"Merriweather", "Georgia";
+	font-weight: 300;
+	line-height:180%;
+	font-size:0.8em;
+	color:#8b8b8b;
+	width:44%;
+
+}
+
+
+.homeBgHeader {
+	position:absolute;
+	width: 100%;
+	margin: 0 auto;
+	top:42%;
+}
+
+
+
+
+.bigHeader {
+	display:block;
+	font-family:"Josefin Slab", Palatino;
+	font-size:3.2em;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+	color:#969696;
+	margin-bottom:6px;
+	
+}
+
+.personalTag {
+	display:block;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-weight: 300;
+	font-size:1.5em;
+	text-align: center;
+	color:#707070;
+	opacity:0.8;
+
+}
+
+
+.proTitleRight {
+	display:block;
+	clear:both;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-size:1.2em;
+	line-height:160%;
+	color:#616161;
+	float:right;
+	text-align:right;
+	width:45%;
+	margin-bottom:10px;
+}
+
+.proIntroRight {
+	display:block;
+	clear:both;
+	text-align:right;
+	font-family:"Merriweather", "Georgia";
+	font-weight: 300;
+	font-size:0.8em;
+	line-height: 180%;
+	color:#8b8b8b;
+	width:40%;
+	float:right;
+}
+
+footer {
+      text-align: center;
+      clear:both;
+      margin:50px auto;
+      font-size: 0.9em;
+    }
+
+#colcontainer {
+    display:block;
+    position:relative;
+    width:62%;
+    margin: 10px auto;
+}
+
+.longTextContainer {
+    display:block;
+    position:relative;
+    width:60%;
+    margin: 30px auto 50px auto;
+
+}
+
+
+.play {
+    display:block;
+    position:relative;
+    width:100%;
+    margin:15px auto;
+}
+
+.play img {
+    width:100%;
+}
+
+.paraText {
+    font-size:1em;
+    font-family:"Merriweather", "Georgia";
+    font-weight:300;
+    line-height: 190%;
+    color:#616161;
+    text-align:left;
+    margin-bottom:30px;
+}
+
+
+#aboutPic {
+	display:block;
+	width:13%;
+	margin: 30px auto;
+}
+
+}
+
+/*larger*/
+  @media only screen and (min-width: 1280px) {
+  
+
+.work {
+	display:block;
+	position:relative;
+	width:75%;
+	margin:30px auto;
+}
+
+#everydayHome{
+
+
+background: url(images/homebanner_everyday_4.png);
+background-repeat: no-repeat;
+background-position: center;
+height:340px;
+z-index:1;
+}
+
+
+#everydayHome:hover{
+
+
+background: url(images/homebanner_everyday_4_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+#learnHome{
+
+background: url(images/homebanner_learn_4.png);
+background-repeat: no-repeat;
+background-position: center;
+height:340px;
+z-index:1;
+}
+
+/*
+#learnHome:hover{
+
+background: url(images/homebanner_learn_4_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+*/
+
+#studentHome{
+
+background: url(images/homebanner_student_4.png);
+background-repeat: no-repeat;
+background-position: center;
+height:340px;
+z-index:1;
+}
+
+/*
+#studentHome:hover{
+
+background: url(images/homebanner_student_4_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+*/
+
+#internHome{
+
+background: url(images/homebanner_intern_4.png);
+background-repeat: no-repeat;
+background-position: center;
+height:340px;
+z-index:1;
+}
+
+
+#internHome:hover{
+
+background: url(images/homebanner_intern_4_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+
+#meetupHome{
+
+background: url(images/homebanner_meetup_4.png);
+background-repeat: no-repeat;
+background-position: center;
+height:340px;
+z-index:1;
+}
+
+
+#meetupHome:hover{
+
+background: url(images/homebanner_meetup_4_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+
+#flightHome{
+
+background: url(images/homebanner_flight_4.png);
+background-repeat: no-repeat;
+background-position: center;
+height:340px;
+z-index:1;
+}
+
+
+#flightHome:hover{
+
+background: url(images/homebanner_flight_4_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+
+#graphicHome{
+
+background: url(images/homebanner_graphic_4.png);
+background-repeat: no-repeat;
+background-position: center;
+height:340px;
+z-index:1;
+}
+
+
+#graphicHome:hover{
+
+background: url(images/homebanner_graphic_4_hover.png);
+background-repeat: no-repeat;
+background-position: center;
+z-index:2;
+}
+
+.homeBgHeader {
+	position:absolute;
+	width: 100%;
+	margin: 0 auto;
+	top:42%;
+}
+
+
+
+
+.bigHeader {
+	display:block;
+	font-family:"Josefin Slab", Palatino;
+	font-size:4em;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+	color:#969696;
+	margin-bottom:6px;
+	
+}
+
+.personalTag {
+	display:block;
+	font-family:"Montserrat", "Verdana", "Helvetica";
+	font-weight: 300;
+	font-size:1.8em;
+	text-align: center;
+	opacity: 0.85;
+	color:#707070;
+
+}
+
+
+#aboutPic {
+	display:block;
+	width:12%;
+	margin: 30px auto;
+}
+
+.proIntro {
+	display:block;
+	font-family:"Merriweather", "Verdana", "Helvetica";
+	font-weight: 300;
+	font-size:0.9em;
+	line-height:180%;
+	color:#8b8b8b;
+	width:46%;
+
+}
+
+.proIntroRight {
+	display:block;
+	font-family:"Merriweather", "Georgia";
+	font-weight: 300;
+	font-size:0.9em;
+	line-height:180%;
+	color:#8b8b8b;
+	width:43%;
+
+}
+.resumeButton {
+        display:block;
+        margin: 50px 0;
+
+}
+
+.resumeButton a:link{
+        font-family:"Montserrat", "Verdana", "Helvetica";
+	font-size:1.4em;
+	color:#3fb3d9;
+	text-decoration: none;
+	text-align: center;
+	padding:14px 22px;
+	margin:0 auto;
+	border: 2px solid #3fb3d9;
+	border-radius: 4px;
+	
+}
+
+.resumeButton a:visited {
+	color:#A6A098;
+}
+
+.resumeButton a:hover {
+	color:#6ac4e2;
+
+}
+
+}
+  
